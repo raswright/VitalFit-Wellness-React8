@@ -1,0 +1,63 @@
+/* Hero Section (Home Page) */
+.hero {
+    background-image: url('C:\Users\rasea\OneDrive - University of South Carolina\College UofSC\Sophmore Year 24-25\CSCE 242 (Web Applications)\VitalFit-Wellness-React8\vitalfit-wellness\public\images\Main Logo (Home).jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-content {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px var(--primary-color);
+}
+
+.hero p {
+    font-size: 1.7rem;
+    margin-bottom: -40px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: var(--schedule-bg2);
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+.cta-button:hover {
+    background-color: var(--primary-color);
+}
+
+/* Responsive Design (Home Page) */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 8px 15px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+}
